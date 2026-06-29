@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: "https://github.com/devopsbyraham/infrastructure-repo.git"
-    path: infrastructure/ingress-nginx
+    path: argocd/infrastructure/ingress-nginx
     targetRevision: HEAD
   destination:
     server: "https://kubernetes.default.svc"

@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: "https://github.com/devopsbyraham/infrastructure-repo.git"
-    path: apps/backend
+    path: argocd/apps/backend
     targetRevision: HEAD
   destination:
     server: "https://kubernetes.default.svc"

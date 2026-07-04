@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/devopsbyraham/infrastructure-repo.git"
+    repoURL: "https://github.com/KumarSatyam2110/infrastructure-repo.git"
     path: argocd/root-app/child-apps/
     targetRevision: main
   destination:
